@@ -1,0 +1,17 @@
+seed: 42
+
+data_path: "data/synthetic_fb_ads_undergarments.csv"
+sample_mode: false
+
+roas_drop_threshold: 0.15
+ctr_low_threshold: 0.01
+significance_level: 0.05
+
+outputs:
+  insights: "reports/insights.json"
+  creatives: "reports/creatives.json"
+  report: "reports/report.md"
+
+log_path: "logs/"
+deep_validate: true   # or false for faster runs/tests
+min_impressions: 1000

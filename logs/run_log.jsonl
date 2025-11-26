@@ -1,0 +1,47 @@
+{"ts": "2025-11-26T07:08:30.889392Z", "event": "run_start", "data": {"query": "Analyze ROAS drop"}}
+{"ts": "2025-11-26T07:08:30.889847Z", "event": "plan_created", "data": {"plan_id": "plan_001", "query": "Analyze ROAS drop", "tasks": [{"id": "T1", "role": "DataAgent", "task": "summarize_data"}, {"id": "T2", "role": "InsightAgent", "task": "generate_hypotheses"}, {"id": "T3", "role": "EvaluatorAgent", "task": "validate_hypotheses"}, {"id": "T4", "role": "CreativeAgent", "task": "generate_creatives"}], "retry_logic": {"condition": "overall_confidence < 0.6", "action": "extend time window or pool adsets"}}}
+{"ts": "2025-11-26T07:08:30.924041Z", "event": "data_summary", "data": {"summary_keys": ["total_spend", "total_revenue", "avg_roas", "by_campaign", "low_ctr_campaigns"]}}
+{"ts": "2025-11-26T07:08:30.924220Z", "event": "insights_generated", "data": {"count": 2}}
+{"ts": "2025-11-26T07:08:30.924330Z", "event": "hypotheses_validated", "data": {"confidence": 0.6000000000000001}}
+{"ts": "2025-11-26T07:08:30.924419Z", "event": "creatives_generated", "data": {"count": 110}}
+{"ts": "2025-11-26T07:08:30.926125Z", "event": "run_complete", "data": {"insights_path": "reports/insights.json", "creatives_path": "reports/creatives.json"}}
+{"ts": "2025-11-26T07:18:58.870764Z", "event": "run_start", "data": {"query": "Analyze ROAS drop"}}
+{"ts": "2025-11-26T07:18:58.871326Z", "event": "plan_created", "data": {"plan_id": "plan_001", "query": "Analyze ROAS drop", "tasks": [{"id": "T1", "role": "DataAgent", "task": "summarize_data"}, {"id": "T2", "role": "InsightAgent", "task": "generate_hypotheses"}, {"id": "T3", "role": "EvaluatorAgent", "task": "validate_hypotheses"}, {"id": "T4", "role": "CreativeAgent", "task": "generate_creatives"}], "retry_logic": {"condition": "overall_confidence < 0.6", "action": "extend time window or pool adsets"}}}
+{"ts": "2025-11-26T07:18:58.904949Z", "event": "data_summary", "data": {"summary_keys": ["total_spend", "total_revenue", "avg_roas", "by_campaign", "low_ctr_campaigns"]}}
+{"ts": "2025-11-26T07:18:58.905076Z", "event": "insights_generated", "data": {"count": 2}}
+{"ts": "2025-11-26T07:23:30.763846Z", "event": "run_start", "data": {"query": "Analyze ROAS drop"}}
+{"ts": "2025-11-26T07:23:30.764364Z", "event": "plan_created", "data": {"plan_id": "plan_001", "query": "Analyze ROAS drop", "tasks": [{"id": "T1", "role": "DataAgent", "task": "summarize_data"}, {"id": "T2", "role": "InsightAgent", "task": "generate_hypotheses"}, {"id": "T3", "role": "EvaluatorAgent", "task": "validate_hypotheses"}, {"id": "T4", "role": "CreativeAgent", "task": "generate_creatives"}], "retry_logic": {"condition": "overall_confidence < 0.6", "action": "extend time window or pool adsets"}}}
+{"ts": "2025-11-26T07:23:30.800154Z", "event": "data_summary", "data": {"summary_keys": ["total_spend", "total_revenue", "avg_roas", "by_campaign", "low_ctr_campaigns"]}}
+{"ts": "2025-11-26T07:23:30.800284Z", "event": "insights_generated", "data": {"count": 2}}
+{"ts": "2025-11-26T07:23:30.811900Z", "event": "hypotheses_validated", "data": {"confidence": 0.75}}
+{"ts": "2025-11-26T07:23:30.812081Z", "event": "creatives_generated", "data": {"count": 110}}
+{"ts": "2025-11-26T07:23:30.814399Z", "event": "run_complete", "data": {"insights_path": "reports/insights.json", "creatives_path": "reports/creatives.json"}}
+{"ts": "2025-11-26T07:27:25.034365Z", "event": "run_start", "data": {"query": "Analyze ROAS drop"}}
+{"ts": "2025-11-26T07:27:25.034905Z", "event": "plan_created", "data": {"plan_id": "plan_001", "query": "Analyze ROAS drop", "tasks": [{"id": "T1", "role": "DataAgent", "task": "summarize_data"}, {"id": "T2", "role": "InsightAgent", "task": "generate_hypotheses"}, {"id": "T3", "role": "EvaluatorAgent", "task": "validate_hypotheses"}, {"id": "T4", "role": "CreativeAgent", "task": "generate_creatives"}], "retry_logic": {"condition": "overall_confidence < 0.6", "action": "extend time window or pool adsets"}}}
+{"ts": "2025-11-26T07:27:25.250882Z", "event": "data_summary", "data": {"summary_keys": ["global", "weekly_trends", "platform", "audience", "campaigns", "low_ctr_campaigns", "avg_frequency", "anomalies"]}}
+{"ts": "2025-11-26T07:27:25.251069Z", "event": "insights_generated", "data": {"count": 2}}
+{"ts": "2025-11-26T07:27:25.264057Z", "event": "hypotheses_validated", "data": {"confidence": 0.575}}
+{"ts": "2025-11-26T07:27:25.264226Z", "event": "creatives_generated", "data": {"count": 110}}
+{"ts": "2025-11-26T07:27:25.265344Z", "event": "run_complete", "data": {"insights_path": "reports/insights.json", "creatives_path": "reports/creatives.json"}}
+{"ts": "2025-11-26T07:29:18.887944Z", "event": "run_start", "data": {"query": "Analyze ROAS drop"}}
+{"ts": "2025-11-26T07:29:18.888531Z", "event": "plan_created", "data": {"plan_id": "plan_001", "query": "Analyze ROAS drop", "tasks": [{"id": "T1", "role": "DataAgent", "task": "summarize_data"}, {"id": "T2", "role": "InsightAgent", "task": "generate_hypotheses"}, {"id": "T3", "role": "EvaluatorAgent", "task": "validate_hypotheses"}, {"id": "T4", "role": "CreativeAgent", "task": "generate_creatives"}], "retry_logic": {"condition": "overall_confidence < 0.6", "action": "extend time window or pool adsets"}}}
+{"ts": "2025-11-26T07:29:19.104505Z", "event": "data_summary", "data": {"summary_keys": ["global", "weekly_trends", "platform", "audience", "campaigns", "low_ctr_campaigns", "avg_frequency", "anomalies"]}}
+{"ts": "2025-11-26T07:29:19.104761Z", "event": "insights_generated", "data": {"count": 4}}
+{"ts": "2025-11-26T07:29:19.117966Z", "event": "hypotheses_validated", "data": {"confidence": 0.4375}}
+{"ts": "2025-11-26T07:29:19.118141Z", "event": "creatives_generated", "data": {"count": 110}}
+{"ts": "2025-11-26T07:29:19.119138Z", "event": "run_complete", "data": {"insights_path": "reports/insights.json", "creatives_path": "reports/creatives.json"}}
+{"ts": "2025-11-26T07:30:31.414202Z", "event": "run_start", "data": {"query": "Analyze ROAS drop"}}
+{"ts": "2025-11-26T07:30:31.414772Z", "event": "plan_created", "data": {"plan_id": "plan_001", "query": "Analyze ROAS drop", "tasks": [{"id": "T1", "role": "DataAgent", "task": "summarize_data"}, {"id": "T2", "role": "InsightAgent", "task": "generate_hypotheses"}, {"id": "T3", "role": "EvaluatorAgent", "task": "validate_hypotheses"}, {"id": "T4", "role": "CreativeAgent", "task": "generate_creatives"}], "retry_logic": {"condition": "overall_confidence < 0.6", "action": "extend time window or pool adsets"}}}
+{"ts": "2025-11-26T07:30:31.637160Z", "event": "data_summary", "data": {"summary_keys": ["global", "weekly_trends", "platform", "audience", "campaigns", "low_ctr_campaigns", "avg_frequency", "anomalies"]}}
+{"ts": "2025-11-26T07:30:31.637324Z", "event": "insights_generated", "data": {"count": 4}}
+{"ts": "2025-11-26T07:30:31.650163Z", "event": "hypotheses_validated", "data": {"confidence": 0.4375}}
+{"ts": "2025-11-26T07:30:32.538802Z", "event": "creatives_generated", "data": {"count": 110}}
+{"ts": "2025-11-26T07:30:32.547142Z", "event": "run_complete", "data": {"insights_path": "reports/insights.json", "creatives_path": "reports/creatives.json"}}
+{"ts": "2025-11-26T07:39:07.926567Z", "event": "run_start", "data": {"query": "Analyze ROAS drop"}}
+{"ts": "2025-11-26T07:39:07.927157Z", "event": "plan_created", "data": {"plan_id": "plan_001", "query": "Analyze ROAS drop", "tasks": [{"id": "T1", "role": "DataAgent", "task": "summarize_data"}, {"id": "T2", "role": "InsightAgent", "task": "generate_hypotheses"}, {"id": "T3", "role": "EvaluatorAgent", "task": "validate_hypotheses"}, {"id": "T4", "role": "CreativeAgent", "task": "generate_creatives"}], "retry_logic": {"condition": "overall_confidence < 0.6", "action": "extend time window or pool adsets"}}}
+{"ts": "2025-11-26T07:39:08.145047Z", "event": "data_summary", "data": {"summary_keys": ["global", "weekly_trends", "platform", "audience", "campaigns", "low_ctr_campaigns", "avg_frequency", "anomalies"]}}
+{"ts": "2025-11-26T07:39:08.145200Z", "event": "insights_generated", "data": {"count": 4}}
+{"ts": "2025-11-26T07:39:08.158774Z", "event": "hypotheses_validated", "data": {"confidence": 0.4375}}
+{"ts": "2025-11-26T07:39:09.105449Z", "event": "creatives_generated", "data": {"count": 110}}
+{"ts": "2025-11-26T07:39:09.106442Z", "event": "report_generated", "data": {"path": "reports/report.md"}}
+{"ts": "2025-11-26T07:39:09.114612Z", "event": "run_complete", "data": {"insights_path": "reports/insights.json", "creatives_path": "reports/creatives.json", "report_path": "reports/report.md"}}
